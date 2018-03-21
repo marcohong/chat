@@ -1,0 +1,147 @@
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,textarea,
+		address,big,cite,code,del,em,font,img,ins,small,strong,var,b,i,dl,dt,
+		dd,ol,ul,li,fieldset,form,label,legend{margin:0;padding:0}
+		ol,ul{list-style:none}
+		.fl{
+			float: left;
+		}
+		.fr{
+			float: right;
+		}
+		.clear{
+			clear: both;
+		}
+		#myChat{
+			position: relative;
+			width: 700px;
+			height: 600px;
+			margin: 0 auto;
+		}
+		.window{
+			width: 700px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 100;
+		}
+		.header{
+			width: 480px;
+			height: 100px;
+			position:relative;
+			z-index:100px;
+			box-shadow:0 1px 2px #ccc;
+			background:url(../images/02.png) no-repeat;
+		}
+		.header .forName{
+			padding: 15px 0 0 15px;
+			font: 150%/200% "微软雅黑","宋体";
+		}
+		.aside{
+			width: 220px;
+			height: 590px;
+			padding-top:10px;
+			overflow:auto;
+			position:absolute;
+			right:0;
+			top:0;
+			background: #dde9f0;
+		}
+		.content1{
+			width: 480px;
+			height: 500px;
+		}
+		/*文本显示区域*/
+		.js_show{
+			height: 330px;
+			padding-left: 4px;
+			overflow:auto;
+			word-wrap: break-word;
+			word-break:break-all;
+			background: #ebf8ff;
+		}
+		/*表情选择区域*/
+		.tool{
+			width: 470px;
+			height: 23px;
+			background:url(../images/03.png) no-repeat;
+			padding-right: 10px;
+			padding-top: 5px;
+			font-size: 86%;
+		}
+		.tool .js_emotion{
+			width: 42px;
+			height: 20px;
+			background: url(../images/icon.gif) no-repeat 2px 2px;
+			padding-left: 20px;
+			cursor: pointer;
+		}
+		.tool .js_emotion:hover{background-position:2px -28px}
+		.tool .history{
+			width: 80px;
+			line-height: 20px;
+			text-align: center;
+			cursor:pointer;
+			font-size: 14px;
+		}
+		/*输入框*/
+		.js_saytext{
+			min-width: 476px;
+			max-width: 476px;
+			min-height: 101px;
+			max-height: 101px;
+			padding-left: 4px;
+			outline: none;
+			border: none;
+			background: #ebf8ff;
+		}
+		/*按钮区域*/
+		.btn{
+			width: 96%;
+			height: 31px;
+			position: relative;
+			padding-right: 4%;
+			padding-top: 10px;
+			background: #d9f2ff;
+		}
+		.btn .js_subBtn,.btn .button1{
+			color: white;
+			width: 80px;
+			line-height: 26px;
+			background: #e6a97c;
+			cursor: pointer;
+			border-radius: 5px;
+			text-align: center;
+			font-size: 90%;
+		}
+		.btn .button1{
+			margin-right: 20px;
+		}
+		.btn .js_noticeTip{
+			position: absolute;
+			padding: 0 10px 0 10px;
+			right: 0;
+			top:-15px;
+			z-index:9999;
+			font:90%/160% "微软雅黑","宋体";
+			background: white;
+			border-radius: 8px;
+			box-shadow: 0 1px 1px #ccc;
+			display: none;
+		}
+		/*qq表情*/
+		.qqFace{margin-top:4px;background:#fff;padding:2px;border:1px #dfe6f6 solid;}
+		.qqFace table td{padding:0px;}
+		.qqFace table td img{cursor:pointer;border:1px #fff solid;}
+		.qqFace table td img:hover{border:1px #0066cc solid;}
+		/*显示的内容*/
+		.inner{
+			width: 100%;
+			padding-bottom: 5px;
+			font-size: 16px;
+		}
+		.inner p.p1{
+			font:14px/28px "微软雅黑","宋体";
+		}
+		.inner p.p2{
+			padding-left: 15px;
+		}

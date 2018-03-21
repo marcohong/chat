@@ -1,0 +1,92 @@
+#myChat{
+	width:878px;
+}
+.tabHost{
+	width: 204px;
+	height: 570px;
+	padding-top: 30px;
+	position: relative;
+	top:0;
+	left:-26px;
+	z-index: 10;
+	background:url(../images/01.png) no-repeat right;
+	overflow:auto;
+}
+.tabHost ul li{
+	width:167px;
+	position:relative;
+	cursor: pointer;
+	padding-left: 17px;
+	font: 14px/30px "微软雅黑","宋体";
+	position:relative;
+	left:20px;
+	margin-bottom:10px;
+	color:white;
+	background:url(../images/07.png) no-repeat;
+}
+.tabHost ul li div{
+	width: 154px;
+	height:35px;
+}
+.tabHost ul li b.turnoff{
+	width:23px;
+	height:20px;
+	background:url(../images/06.png) no-repeat;
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+.tabHostClick{
+	background:url(../images/08.png) no-repeat !important;
+}
+.window{
+	left:178px;
+}
+.aside{
+	position:absolute;
+	padding-top:0;
+	height:600px;
+	top:0px;
+	right:0;
+	z-index:1000;
+		}
+.userName{
+	text-align:center;
+	font: 16px/40px "微软雅黑","宋体";
+	background:#4d83a0;
+	margin-bottom:10px;
+}
+.aside ul li{
+	position:relative;
+	width:	190x;
+	cursor: pointer;
+	padding-left: 30px;
+	font: 14px/30px "微软雅黑","宋体";
+		}
+.aside ul li:hover{
+	background: #B3D7E6;
+}
+b.chatNum{
+	position:absolute;
+	left: 6px;
+	top:3px;
+	width:22px;
+	height:22px;
+	background:red;
+	font: 12px/22px "微软雅黑","宋体";
+	text-align:center;
+	border-radius:11px;
+	color:white;
+}
+/*标签栏li的操作star*/
+.tabHostClick{
+	background: #F8D8C0;
+}
+.tabHostHover{
+	background: #EEB992;
+}
+/*标签栏li的操作end*/
+
+#chat_2,#chat_3{
+	display: none;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://getahead.org/dwr/dwr20.dtd">
+
+<dwr>
+	<allow>
+		<create javascript="manager" creator="new">
+			<param name="class" value="com.maco.chat.server.UserChatManager"/>
+		</create>
+		<!-- 类转换器 -->
+		<convert javascript="User" converter="bean" match="com.maco.chat.bean.DwrUser"/>
+		<convert javascript="Message" converter="bean" match="com.maco.chat.bean.DwrMessage"/>
+	</allow>
+</dwr>
